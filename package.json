@@ -15,8 +15,13 @@
     "MongoDB"
   ],
   "author": "Adeeb Ali",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
+    "express": "^4.17.1",
     "mongoose": "^5.11.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "jest": "^26.6.3"
   }
 }

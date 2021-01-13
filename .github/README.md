@@ -54,7 +54,7 @@ Oh no! We have a bunch of linting errors. That's totally fixable! You just need 
 
 ## Made With ❤️ Using
 
-* ExpressJS - Web Framework
+* Express - Web Framework
 * Jest - Unit Testing Framework
 * Eslint - Code Style
 * Mongoose - MongoDB utility for NodeJS
