@@ -4,7 +4,11 @@
   "description": "The social network for bibliophiles.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "npm test",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "lint:fix": "eslint --fix **/*.js --ignore-pattern node_modules/"
   },
   "keywords": [
     "Social",
@@ -15,13 +19,15 @@
     "MongoDB"
   ],
   "author": "Adeeb Ali",
-  "license": "",
+  "license": "MIT",
+  "repository": "https://github.com/AdeebAli/Bookmarkd",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.11"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
   }
 }
