@@ -1,0 +1,22 @@
+{
+  "name": "bookmarkd",
+  "version": "1.0.0",
+  "description": "The social network for bibliophiles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "Social",
+    "Network",
+    "Bookmarkd",
+    "Nodejs",
+    "Api",
+    "MongoDB"
+  ],
+  "author": "Adeeb Ali",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.11.11"
+  }
+}
