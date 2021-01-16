@@ -52,6 +52,25 @@ Oh no! We have a bunch of linting errors. That's totally fixable! You just need 
     npm run lint:fix
 ```
 
+## Running with Docker
+
+This application can be run with Docker using the supplied Dockerfile to build the image.
+Your machine must have Docker installed in order to perform the following steps. Download instructions can be found on the [Official Docker Website](https://docs.docker.com/get-docker/)
+
+### Building the Image
+
+change directory to the root of the repository, then
+
+```bash
+docker build -t <username>/bookmarkd .
+```
+
+### Running the Image
+
+```bash
+docker run -p <public_port>:<private_port> -d <username>/bookmarkd
+```
+
 ## Made With ❤️ Using
 
 * Express - Web Framework
