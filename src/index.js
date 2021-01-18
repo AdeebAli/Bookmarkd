@@ -1,6 +1,7 @@
+const log = require('./logger.js');
 const app = require('./app');
-const {api: {port}} = require('./config');
+const { api: { port } } = require('./config');
 
 app.listen(port, () => {
-    console.log(`listening on port ${port}!`);
-})
+  log.info(`listening on port ${port}!`);
+});
