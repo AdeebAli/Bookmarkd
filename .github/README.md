@@ -7,7 +7,7 @@ Made with ExpressJS, Eslint, and Jest.
 
 ## Requirements
 
-* NodeJS 12+
+* NodeJS 13+
 * MongoDB
 
 ## Getting Started
@@ -39,6 +39,8 @@ To run the full test suite,
 ```
 
 ## Linting / Code Style
+
+This project uses the AirBnB ruleset for eslint to enforce code style and syntax errors. Linting is run with the lint command as well as the general npm test command.
 
 To run the linter and check for code style errors,
 
