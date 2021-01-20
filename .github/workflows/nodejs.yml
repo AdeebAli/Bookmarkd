@@ -16,7 +16,9 @@ jobs:
 
     steps:
     - name: Check out repository
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
+      env:
+        CI: true
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -24,13 +26,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     
     - name: Install dependencies
-    - run: npm install
+      run: npm install
 
     - name: run test suite and generate coverage report
-    - run: npm test -- --coverage
-      env:
-        CI: true
-        
+      run: npm test -- --coverage
+      
     - name: Upload coverage report to Codecov
       uses: codecov/codecov-action@v1
       with:
