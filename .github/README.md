@@ -1,5 +1,7 @@
 # Bookmarkd 📖
 
+[![codecov](https://codecov.io/gh/AdeebAli/Bookmarkd/branch/master/graph/badge.svg?token=GZJT7TUW6A)](https://codecov.io/gh/AdeebAli/Bookmarkd) ![Node.js CI](https://github.com/AdeebAli/Bookmarkd/workflows/CI%20Pipeline/badge.svg?branch=master)
+
 **_The Social Network for Bibliophiles_** 🤓📖❤️
 
 The backend API for Bookmarkd responsible for communication to and from the MongoDB data store.  
